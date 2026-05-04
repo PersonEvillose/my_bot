@@ -4,7 +4,7 @@ import random
 import re
 
 # === НАСТРОЙКИ ===
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 
 # Загрузка карт из файла
